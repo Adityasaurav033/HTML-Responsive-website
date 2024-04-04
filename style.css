@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+  
+.logo{
+  width: 100%;
+  margin-left: 10px;
+  padding: 0%;
+}
+.main {
+  flex: 1;
+}
+body{
+  background-color: black;
+}
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+h2{
+  color: white;
+}
+p{
+  color: white;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  
+}
+
+.card{
+  width: 45%;
+}
+
+.tile-image{
+  height: 200px;
+  margin-right: 50px;
+  float: left;
+  
+}
+
+.left{
+  float: left;
+  
+}
+
+.right{
+  float: right;
+  
+}
+
+.Creative{
+  color: midnightblue;
+}
+
+@media (max-width:680px){
+  .Aditya{
+    width: 100%;
+    display: block;
+  }
+  .logo{
+    margin: 0%; 
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+
+  
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+.card{
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+  text-align: justify;
+}
+
+.card img{
+  margin-bottom: 10px;
+  width: 100%;
+  display: inline;
+  object-fit: cover;
+  
+}
+}
